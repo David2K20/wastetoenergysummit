@@ -566,7 +566,15 @@ li #registerBtn:hover {
 	color: #171822;
 	font-size: 40px;
 	font-weight: 700;
-	margin-bottom: 32px;
+	margin-bottom: 20px;
+}
+
+.ha-text-partner h2{
+	color: #171822;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	margin-top: 10px;
 }
 
 .ha-text p {
