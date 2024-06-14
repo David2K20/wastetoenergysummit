@@ -205,6 +205,10 @@ ol {
 	background-image: linear-gradient(to right, #1b9911 0%, #1b9911 100%), linear-gradient(to right, #1b9911 0%, #1b9911 100%);
 }
 
+#registerBtn-top:hover {
+	color: hsl(120, 7%, 89%);
+}
+
 li #registerBtn {
 	display: inline-block;
 	font-size: 16px;
@@ -216,6 +220,10 @@ li #registerBtn {
 	background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
 	background-image: -o-linear-gradient(left, #fff 0%, #fff 100%), -o-linear-gradient(left, #fff 0%, #fff 100%);
 	background-image: linear-gradient(to right, #fff 0%, #fff 100%), linear-gradient(to right, #fff 0%, #fff 100%);	
+}
+
+li #registerBtn:hover {
+	color: hsl(116, 60%, 45%);
 }
 
 .primary-btn:hover {
@@ -1163,7 +1171,11 @@ li #registerBtn {
 -----------------------*/
 
 .footer-section {
-	background: #1b9911;
+	background: url('/img/footer-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 	padding-bottom: 50px;
 	padding-top: 45px;
 }
@@ -1220,6 +1232,10 @@ li #registerBtn {
 	transition: all 0.3s;
 }
 
+.footer-text ul li a:hover {
+	color: #ffff15;
+}
+
 .footer-text .copyright-text {
 	font-size: 14px;
 	color: #fff;
@@ -1240,15 +1256,21 @@ li #registerBtn {
 
 .footer-text .ft-social a {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	text-align: center;
-	line-height: 40px;
-	font-size: 16px;
+	line-height: 60px;
+	font-size: 45px;
 	color: #fff;
 	border: 1px solid #fff;
 	border-radius: 50%;
 	margin-right: 15px;
+}
+
+.footer-text .ft-social a:hover {
+	background: #fff;
+    transform: scale(1.5);
+    color: #fd5949;
 }
 
 .footer-text .ft-social a:last-child {
