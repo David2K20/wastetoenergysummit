@@ -198,8 +198,19 @@ ol {
 	background-image: linear-gradient(to right, #fff 0%, #fff 100%), linear-gradient(to right, #fff 0%, #fff 100%);
 }
 
+#registerBtn {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 18px 80px;
+	border-radius: 18px;
+}
+
 #registerBtn-top {
 	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 18px 80px;
+	border-radius: 18px;
 	background-image: -webkit-gradient(linear, left top, right top, from(#1b9911), to(#1b9911)), -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
 	background-image: -o-linear-gradient(left, #1b9911 0%, #1b9911 100%), -o-linear-gradient(left #1b9911 0%, #1b9911 100%);
 	background-image: linear-gradient(to right, #1b9911 0%, #1b9911 100%), linear-gradient(to right, #1b9911 0%, #1b9911 100%);
@@ -213,10 +224,11 @@ li #registerBtn {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
-	padding: 12px 40px;
+	padding: 18px 80px;
 	color: #1b9911;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 18px;
+	margin-top: 8px;
 	background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
 	background-image: -o-linear-gradient(left, #fff 0%, #fff 100%), -o-linear-gradient(left, #fff 0%, #fff 100%);
 	background-image: linear-gradient(to right, #fff 0%, #fff 100%), linear-gradient(to right, #fff 0%, #fff 100%);	
@@ -1174,10 +1186,11 @@ li #registerBtn:hover {
 	background: url('/img/footer-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	display: center;
+	background-position: fixed;
 	background-attachment: fixed;
 	padding-bottom: 50px;
-	padding-top: 45px;
+	padding-top: 5px;
 }
 
 .partner-logo {
