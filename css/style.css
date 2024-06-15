@@ -164,6 +164,15 @@ ol {
 	color: #fff;
 }
 
+#sponsor h3 {
+	font-family: "Gilroy", "Arial", "sans-serif";
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(178, 178, 178);
+	line-height: 1.5;
+	letter-spacing: 6px;
+}
+
 .bd-text .bd-tag-share .s-share a:hover,
 .bh-text .play-btn,
 .schedule-table-tab .nav-tabs .nav-item .nav-link.active,
@@ -178,7 +187,7 @@ ol {
 }
 
 .bg-gradient {
-	background-image: linear-gradient(120deg, #b5c80c 0%, #b5c80c 100%), linear-gradient(120deg, #b5c80c 0%, #b5c80c 100%);
+	background-image: url('/img/newsletter-bg.jpeg');
 	
 }
 
