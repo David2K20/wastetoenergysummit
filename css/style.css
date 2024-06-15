@@ -1593,7 +1593,8 @@ li #registerBtn:hover {
 
 .speaker-item .si-text .si-title span {
 	color: #1b9911;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 600;
 	display: block;
 }
 
