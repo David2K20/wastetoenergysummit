@@ -1255,11 +1255,11 @@ ol {
 
 .footer-text .ft-social a {
 	display: inline-block;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	text-align: center;
-	line-height: 60px;
-	font-size: 45px;
+	line-height: 40px;
+	font-size: 20px;
 	color: #fff;
 	border: 1px solid #fff;
 	border-radius: 50%;
@@ -1267,9 +1267,7 @@ ol {
 }
 
 .footer-text .ft-social a:hover {
-	background: #fff;
-    transform: scale(1.5);
-    color: #fd5949;
+	background-color: #0b5e05;
 }
 
 .footer-text .ft-social a:last-child {
