@@ -196,59 +196,24 @@ ol {
 
 .primary-btn {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
-	padding: 12px 40px;
-	color: #1b9911;
-	text-align: center;
-	border-radius: 50px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
-	background-image: -o-linear-gradient(left, #fff 0%, #fff 100%), -o-linear-gradient(left, #fff 0%, #fff 100%);
-	background-image: linear-gradient(to right, #fff 0%, #fff 100%), linear-gradient(to right, #fff 0%, #fff 100%);
-}
-
-#registerBtn {
-	font-size: 16px;
-	font-weight: 600;
-	padding: 18px 80px;
-	border-radius: 18px;
-}
-
-#registerBtn-top {
+	padding: 18px 55px;
 	color: #fff;
-	font-size: 16px;
-	font-weight: 600;
-	padding: 18px 80px;
+	text-align: center;
 	border-radius: 18px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#1b9911), to(#1b9911)), -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
-	background-image: -o-linear-gradient(left, #1b9911 0%, #1b9911 100%), -o-linear-gradient(left #1b9911 0%, #1b9911 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#1b9911), to(#1b9911)), -webkit-gradient(linear, left top, right top, from(#1b9911), to(#1b9911));
+	background-image: -o-linear-gradient(left, #1b9911 0%, #1b9911 100%), -o-linear-gradient(left, #1b9911 0%, #1b9911 100%);
 	background-image: linear-gradient(to right, #1b9911 0%, #1b9911 100%), linear-gradient(to right, #1b9911 0%, #1b9911 100%);
 }
 
-#registerBtn-top:hover {
-	color: hsl(120, 7%, 89%);
-}
-
-li #registerBtn {
-	display: inline-block;
-	font-size: 16px;
-	font-weight: 600;
-	padding: 18px 80px;
-	color: #1b9911;
-	text-align: center;
-	border-radius: 18px;
-	margin-top: 8px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff)), -webkit-gradient(linear, left top, right top, from(#fff), to(#fff));
-	background-image: -o-linear-gradient(left, #fff 0%, #fff 100%), -o-linear-gradient(left, #fff 0%, #fff 100%);
-	background-image: linear-gradient(to right, #fff 0%, #fff 100%), linear-gradient(to right, #fff 0%, #fff 100%);	
-}
-
-li #registerBtn:hover {
-	color: hsl(116, 60%, 45%);
+#theme {
+	padding: 12px 40px;
+	border-radius: 50px;
 }
 
 .primary-btn:hover {
-	color: hsl(116, 60%, 45%);
+	color: hsl(120, 8%, 90%);
 }
 
 .site-btn {
@@ -1264,6 +1229,10 @@ li #registerBtn:hover {
 
 .footer-text ul li a:hover {
 	color: #ffff15;
+}
+
+.footer-text ul li .primary-btn:hover {
+	color: hsl(120, 8%, 90%);
 }
 
 .footer-text .copyright-text {
