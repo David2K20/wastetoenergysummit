@@ -217,10 +217,6 @@ ol {
 	border-radius: 50px;
 }
 
-.primary-btn:hover {
-	color: hsl(120, 8%, 90%);
-}
-
 .site-btn {
 	font-size: 16px;
 	color: #ffffff;
@@ -1237,7 +1233,7 @@ ol {
 }
 
 .footer-text ul li .primary-btn:hover {
-	color: hsl(120, 8%, 90%);
+	color: hsl(0, 0%, 100%);
 }
 
 .footer-text .copyright-text {
@@ -1269,6 +1265,9 @@ ol {
 	border: 1px solid #fff;
 	border-radius: 50%;
 	margin-right: 15px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .footer-text .ft-social a:hover {
