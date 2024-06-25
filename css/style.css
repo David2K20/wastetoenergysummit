@@ -1597,13 +1597,14 @@ ol {
 	line-height: 26px;
 }
 
-.load-more {
+.more-speakers {
 	text-align: center;
 	padding-top: 10px;
 }
 
-.load-more .primary-btn {
-	padding: 12px 45px;
+.more-speakers .primary-btn {
+	padding: 10px 30px;
+	border-radius: 70px;
 }
 
 /*------------------------
