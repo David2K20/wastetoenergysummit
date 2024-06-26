@@ -1607,6 +1607,23 @@ ol {
 	border-radius: 70px;
 }
 
+.small-img {
+	height: 400px;
+	float: left;
+	object-fit: cover;
+}
+
+.big-img {
+	height: 450px;
+	object-fit: cover;
+}
+
+.bigger-img {
+	height: 650px;
+	float: left;
+	object-fit: cover;
+}
+
 /*------------------------
   Schedule Table Section
 -------------------------*/
