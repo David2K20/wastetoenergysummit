@@ -1602,7 +1602,7 @@ ol {
 	padding-top: 10px;
 }
 
-.more-speakers .primary-btn {
+.more-speakers a {
 	padding: 10px 30px;
 	border-radius: 70px;
 }
