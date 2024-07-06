@@ -1619,7 +1619,7 @@ ol {
 }
 
 .bigger-img {
-	height: 600px;
+	height: 500px;
 	float: left;
 	object-fit: cover;
 }
