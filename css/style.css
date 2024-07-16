@@ -255,6 +255,9 @@ ol {
 	background-image: linear-gradient(to right, #1b9911 0%, #1b9911 100%), linear-gradient(to right, #1b9911 0%, #1b9911 100%);
 }
 
+#event-guide {
+	background-image: linear-gradient(120deg, #ffa41b 0%, #1b9911 100%), linear-gradient(120deg, #ffa41b 0%, #1b9911 100%);
+}
 /* Preloder */
 
 #preloder {
